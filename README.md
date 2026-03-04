@@ -1,3 +1,10 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Data%20Warehouse-blue)
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+![ETL](https://img.shields.io/badge/Data%20Pipeline-ETL-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+
 # Job Market Intelligence Platform (Python + PostgreSQL + Power BI)
 
 End-to-end analytics engineering project that ingests job postings, normalizes data across sources, loads a star-schema warehouse in PostgreSQL, enriches records (skills, seniority, job type), publishes metrics as SQL views, and serves an executive Power BI dashboard. The pipeline runs daily via cron with observability and incremental ingestion state tracking.
