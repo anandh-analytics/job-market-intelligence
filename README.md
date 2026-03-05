@@ -171,15 +171,21 @@ These metrics power the Power BI dashboard.
 
 ---
 
-## Dashboard
+## Power BI Dashboard
 
-The Power BI dashboard provides executive-level insights including:
+The analytics layer of the platform is visualized using **Power BI dashboards**.
 
-- Hiring trends by company
-- Job market demand by location
-- Top requested skills
-- Role seniority distribution
-- Job posting growth trends
+### Executive Overview
+![Executive Dashboard](docs/dashboard_screenshots/executive_overview.png)
+
+### Job Market Trends
+![Job Market Trends](docs/dashboard_screenshots/job_market_trends.png)
+
+### Skill Intelligence
+![Skill Intelligence](docs/dashboard_screenshots/skill_intelligence.png)
+
+### Salary Insights
+![Salary Insights](docs/dashboard_screenshots/salary_insights.png)
 
 ---
 
