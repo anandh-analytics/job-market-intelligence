@@ -69,6 +69,15 @@ Canonical job data is loaded into a PostgreSQL dimensional warehouse.
 Aggregated SQL views produce analytics-ready datasets for reporting.
 
 ---
+## SQL (Warehouse + Metrics)
+All key SQL used in the project is packaged under `/sql`:
+
+- `sql/run_all.sql` → runs everything in order  
+- `sql/01_raw/` → raw constraints  
+- `sql/02_warehouse/` → warehouse objects + fact load  
+- `sql/03_metrics/` → metrics views used by Power BI  
+- `sql/04_ops/` → data quality + validation queries  
+---
 
 ## Data Warehouse
 
